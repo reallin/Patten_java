@@ -14,4 +14,11 @@ public class GeneralProject extends BaseAction{
 		System.out.println("view the general Project,very large");
 	}
 
+	@Override
+	public boolean canAduit() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+
 }

@@ -8,10 +8,17 @@ public abstract class BaseAction {
 		System.out.println("first,search the project what you want.");
 	}
 	public abstract void viewProject();
+	
 	public final void FinishProject(){
 		searchProject();
 		viewProject();
+		if(canAduit()){
 		aduitProject();
+		}
 		System.out.println("------finish one--------");
 	}
+	public boolean canAduit(){
+		return true;
+	}
+	
 }
