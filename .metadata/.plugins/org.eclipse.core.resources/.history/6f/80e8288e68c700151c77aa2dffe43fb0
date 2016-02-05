@@ -1,0 +1,11 @@
+package com.lxj.observer;
+
+public class XiaoGaoObserver implements Observer {
+
+	@Override
+	public void update(String name) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

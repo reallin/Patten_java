@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.lxj.strategy.RedDuck"/>
+<fullyQualifiedTypeName name="com.lxj.strategy.CanFly"/>
+<fullyQualifiedTypeName name="com.lxj.strategy.Duck"/>
+<fullyQualifiedTypeName name="com.lxj.strategy.BlackDuck"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.NO_IMPLEMENT"/>
+<fullyQualifiedTypeName name="com.lxj.strategy.NoFly"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="com.lxj.observer.Observer"/>
+<fullyQualifiedTypeName name="com.lxj.observer.XiaoGaoObserver"/>
+<fullyQualifiedTypeName name="com.lxj.Subject.BookSubject"/>
+<fullyQualifiedTypeName name="com.lxj.Subject.Subject"/>
+<fullyQualifiedTypeName name="com.lxj.observer.XiaoMingObserver"/>
+<fullyQualifiedTypeName name="com.lxj.inteface.InputStream"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.security.PublicKey"/>
+<fullyQualifiedTypeName name="com.lxj.inteface.MyInputStream"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.lxj.decorate.FilteInputStream"/>
+<fullyQualifiedTypeName name="com.lxj.inteface.BufferInputSteam"/>
+<fullyQualifiedTypeName name="com.lxj.inteface.FileInputStream"/>
+<fullyQualifiedTypeName name="com.lxj.inteface.DataInputStream"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

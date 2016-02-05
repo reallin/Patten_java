@@ -1,0 +1,34 @@
+package com.lxj.Subject;
+
+import java.util.ArrayList;
+
+import com.lxj.observer.Observer;
+
+
+public class BookSubject implements Subject {
+	ArrayList<Observer> aList = new ArrayList<Observer>(); 
+	@Override
+	public void registerObserver(Observer o) {
+		// TODO Auto-generated method stub
+		if(!aList.contains(o)){
+			aList.add(o);
+		}
+	}
+
+	@Override
+	public void removeObserver(Observer o) {
+		// TODO Auto-generated method stub
+		if(aList.contains(o)){
+			aList.remove(o);
+		}
+	}
+
+	@Override
+	public void notifyObservers() {
+		// TODO Auto-generated method stub
+		for(Observer observer :aList){
+			observer.update(o, arg);
+		}
+	}
+
+}

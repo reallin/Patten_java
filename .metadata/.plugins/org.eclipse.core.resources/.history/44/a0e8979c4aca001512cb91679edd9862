@@ -1,0 +1,11 @@
+package com.lxj.decorate;
+
+import com.lxj.inteface.InputStream;
+
+public abstract class FilteInputStream extends InputStream{
+	public abstract void write();
+
+	public abstract void read();
+	
+	
+}

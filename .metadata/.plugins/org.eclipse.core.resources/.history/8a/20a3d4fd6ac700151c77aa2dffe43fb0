@@ -1,0 +1,14 @@
+package Main;
+
+import com.lxj.Subject.BookSubject;
+import com.lxj.Subject.Subject;
+import com.lxj.observer.XiaoGaoObserver;
+
+public class Main {
+	public static void main(String[] args){
+		Subject subject = new BookSubject();
+		XiaoGaoObserver xiaogao = new XiaoGaoObserver(subject);
+		XiaoGaoObserver xiaoming = new XiaoGaoObserver(subject);
+		subject.notifyObservers();
+	}
+}

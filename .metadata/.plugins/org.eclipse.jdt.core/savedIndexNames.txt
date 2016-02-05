@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+E:\java\patten_java\.metadata\.plugins\org.eclipse.jdt.core
+2990416882.index
+8579594.index
+794229677.index
+1161061132.index

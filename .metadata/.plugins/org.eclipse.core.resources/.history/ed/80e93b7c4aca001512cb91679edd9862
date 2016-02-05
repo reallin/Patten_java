@@ -1,0 +1,7 @@
+package com.lxj.inteface;
+
+
+public interface InputStream {
+	public void write();
+	public void read();
+}

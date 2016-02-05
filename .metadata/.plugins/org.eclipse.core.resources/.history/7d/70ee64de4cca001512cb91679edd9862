@@ -1,0 +1,28 @@
+package com.lxj.inteface;
+
+
+import com.lxj.decorate.FilteInputStream;
+
+public class DataInputStream extends FilteInputStream {
+	private MyInputStream inputStream;
+	
+	public DataInputStream(MyInputStream input) {
+		// TODO Auto-generated constructor stub
+		this.inputStream = input;
+	}
+	@Override
+	public void write() {
+		// TODO Auto-generated method stub
+		System.out.println(read()+this.inputStream.read());
+	
+	}
+	@Override
+	public String read() {
+		// TODO Auto-generated method stub
+		return "DataInputStream";
+	}
+
+
+	
+
+}

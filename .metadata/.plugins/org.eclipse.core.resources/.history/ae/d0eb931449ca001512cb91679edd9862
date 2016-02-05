@@ -1,0 +1,6 @@
+package com.lxj.decorate;
+
+public interface Decorate {
+	public void write();
+	public void read();
+}

@@ -1,0 +1,20 @@
+package com.lxj.inteface;
+
+public class FileInputStream extends MyInputStream{
+	public FileInputStream(String path){
+		
+	}
+
+	@Override
+	public void write() {
+		// TODO Auto-generated method stub
+		System.out.println(this.read());
+	}
+
+	@Override
+	public String read() {
+		// TODO Auto-generated method stub
+		return "FileInputStream";
+	}
+
+}

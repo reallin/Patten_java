@@ -1,0 +1,6 @@
+package com.lxj.observer;
+
+public interface Observer {
+	String bookName;
+	public void update(String name);
+}
